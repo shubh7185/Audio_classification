@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1VJEhELeZr1lzw8e6M69YjcNCFXG1JjUB
 """
 
-# !pip install librosa
+!pip install librosa
 
 # Commented out IPython magic to ensure Python compatibility.
 # import matplotlib.pyplot as plt
