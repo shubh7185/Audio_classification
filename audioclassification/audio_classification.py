@@ -10,7 +10,7 @@ Original file is located at
 # !pip install librosa
 
 # Commented out IPython magic to ensure Python compatibility.
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # %matplotlib inline
 
 ### Let's read a sample audio using librosa
