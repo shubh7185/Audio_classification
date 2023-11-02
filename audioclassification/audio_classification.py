@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1VJEhELeZr1lzw8e6M69YjcNCFXG1JjUB
 """
 import subprocess
+import sys
 
 # Install necessary libraries from requirements.txt
 subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
