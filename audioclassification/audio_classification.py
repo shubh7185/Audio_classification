@@ -14,7 +14,7 @@ Original file is located at
 # %matplotlib inline
 
 ### Let's read a sample audio using librosa
-import librosa
+# import librosa
 audio_file_path='/kaggle/input/urbansounds/UrbanSound8K/audio/fold1/101415-3-0-8.wav'
 librosa_audio_data,librosa_sample_rate=librosa.load(audio_file_path)
 print(librosa_audio_data)
