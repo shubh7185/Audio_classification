@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1VJEhELeZr1lzw8e6M69YjcNCFXG1JjUB
 """
 
-!pip install librosa
+# !pip install librosa
 
 # Commented out IPython magic to ensure Python compatibility.
 import matplotlib.pyplot as plt
@@ -96,7 +96,7 @@ for index, row in metadata.iterrows():
 # Convert into a Panda dataframe
 audiodf = pd.DataFrame(audiodata, columns=['num_channels','sample_rate','bit_depth'])
 
-!pip install resampy
+# !pip install resampy
 
 import pandas as pd
 import os
